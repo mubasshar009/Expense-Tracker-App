@@ -37,7 +37,7 @@ jobs:
           cmd: 
             # NPM_AUTH_TOKEN  
       - name: Creating Build Folder
-        run: npm run build
+        run: yarn build
       - name: Install Surge
         run: npm install -g surge
       - name: Deploy Surge App
